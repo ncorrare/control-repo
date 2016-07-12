@@ -15,3 +15,15 @@ forge "http://forge.puppetlabs.com"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+#
+
+
+## Baseline Linux Modules
+mod "ncorrare/yubikey", '1.0.7'
+mod "ncorrare/reportslack", '1.0.17'
+
+## Baseline Windows Modules
+
+mod "puppetlabs/registry", '1.1.3'
+mod "puppetlabs/dsc", '1.0.1'
+mod "puppetlabs/chocolatey", '0.7.0'
