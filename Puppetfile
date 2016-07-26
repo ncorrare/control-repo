@@ -18,3 +18,7 @@ mod "puppetlabs/registry"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+#
+mod 'awsnodes',
+  :git => 'https://github.com/ncorrare/awsnodes.git',
+  :tag => '0.1.0'
