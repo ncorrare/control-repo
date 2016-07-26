@@ -2,10 +2,10 @@
 classes:
   - awsnodes
 awsnodes::ec2i:
-  redhat7a:
+  redhat7a-nicolas:
     region: "us-west-2"
     instance_type: "t2.micro"
-  redhat7b:
+  redhat7b-nicolas:
     region: "us-west-2"
     instance_type: "t2.small"
 
