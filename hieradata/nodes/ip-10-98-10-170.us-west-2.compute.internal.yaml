@@ -5,7 +5,13 @@ awsnodes::ec2i:
   redhat7a-nicolas:
     region: "us-west-2"
     instance_type: "t2.micro"
+    security_groups:
+      - "tse-crossconnect"
+      - "tse-master"
   redhat7b-nicolas:
     region: "us-west-2"
     instance_type: "t2.small"
+    security_groups:
+      - "tse-crossconnect"
+      - "tse-master"
 
