@@ -1,4 +1,6 @@
 ---
+classes:
+  - awsnodes
 awsnodes::ec2i:
   redhat7a:
     instance_type: "t2.micro"
