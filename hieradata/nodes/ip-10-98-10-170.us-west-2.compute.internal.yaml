@@ -1,6 +1,6 @@
 ---
-classes:
-  - awsnodes
+#classes:
+#  - awsnodes
 awsnodes::ec2i:
   redhat7a-nicolas:
     region: "us-west-2"
