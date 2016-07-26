@@ -21,4 +21,4 @@ mod "puppetlabs/registry"
 #
 mod 'awsnodes',
   :git => 'https://github.com/ncorrare/awsnodes.git',
-  :tag => '0.1.0'
+  :tag => '0.2.0'

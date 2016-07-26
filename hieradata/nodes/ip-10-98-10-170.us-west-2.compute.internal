@@ -1,0 +1,7 @@
+---
+awsnodes::ec2i:
+  redhat7a:
+    instance_type: "t2.micro"
+  redhat7b:
+    instance_type: "t2.small"
+
