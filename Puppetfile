@@ -9,6 +9,7 @@ mod "puppetlabs/concat",      '2.2.0'
 mod "puppetlabs/aws",         '1.4.0'
 mod "puppetlabs/chocolatey"
 mod "puppetlabs/registry"
+mod "puppetlabs/docker_platform"
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
