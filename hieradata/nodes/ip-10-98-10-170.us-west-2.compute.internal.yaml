@@ -20,3 +20,10 @@ awsnodes::ec2i:
     security_groups:
       - "tse-crossconnect"
       - "tse-master"
+  docker_02-nicolas:
+    region: "us-west-2"
+    instance_type: "t2.medium"
+    pp_role: docker
+    security_groups:
+      - "tse-crossconnect"
+      - "tse-master"
