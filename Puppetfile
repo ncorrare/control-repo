@@ -10,6 +10,7 @@ mod "puppetlabs/aws",         '1.4.0'
 mod "puppetlabs/chocolatey"
 mod "puppetlabs/registry"
 mod "garethr/docker"
+mod "stahnma/epel"
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
