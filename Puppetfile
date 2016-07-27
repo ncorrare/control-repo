@@ -23,4 +23,4 @@ mod "puppetlabs/docker_platform"
 #
 mod 'awsnodes',
   :git => 'https://github.com/ncorrare/awsnodes.git',
-  :tag => '0.6.0'
+  :tag => '0.7.0'
