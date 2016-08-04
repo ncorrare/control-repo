@@ -8,24 +8,12 @@ awsnodes::ec2i:
     security_groups:
       - "tse-crossconnect"
       - "tse-master"
-#  redhat7b-nicolas:
-#    region: "us-west-2"
-#    instance_type: "t2.small"
-#    security_groups:
-#      - "tse-crossconnect"
-#      - "tse-master"
-#  redhatserverfor-lukehasty:
-#    region: "us-west-2"
-#    instance_type: "t2.small"
-#    security_groups:
-#      - "tse-crossconnect"
-#      - "tse-master"
-#  docker_01-nicolas:
-#    region: "us-west-2"
-#    instance_type: "t2.medium"
-#    security_groups:
-#      - "tse-crossconnect"
-#      - "tse-master"
+  docker_01-nicolas:
+    region: "us-west-2"
+    instance_type: "t2.medium"
+    security_groups:
+      - "tse-crossconnect"
+      - "tse-master"
 #  docker_02-nicolas:
 #    region: "us-west-2"
 #    instance_type: "t2.medium"
