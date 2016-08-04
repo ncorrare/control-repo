@@ -29,5 +29,9 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+  file { '/tmp/alsstate':
+     ensure => file,
+     content => 'Allstate demo',
+  }
 }
 hiera_include('classes')
